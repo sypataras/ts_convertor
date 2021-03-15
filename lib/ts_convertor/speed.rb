@@ -5,7 +5,7 @@ module TsConvertor
     SIZE = %w[km_h mile_h].freeze
 
     def self.convert_speed(val, from, to)
-      check_variables(form, to)
+      check_variables(from, to)
       val * send(from, to)
     end
 
