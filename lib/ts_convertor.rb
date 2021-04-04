@@ -3,11 +3,12 @@
 require 'ts_convertor/version'
 require 'ts_convertor/speed'
 require 'ts_convertor/weight'
+require 'ts_convertor/length'
 
 module TsConvertor
   class Error < StandardError; end
 
-  METHODS = %w[speed weight].freeze
+  METHODS = %w[speed weight length].freeze
 
   class << self
     METHODS.each do |method|

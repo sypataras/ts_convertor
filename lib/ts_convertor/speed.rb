@@ -4,7 +4,7 @@ require 'ts_convertor/config'
 
 module TsConvertor
   class Speed
-    include TsConvertor::Config
+    include Config
 
     SIZE = %w[km_h km_m mile_h mile_m knots].freeze
 

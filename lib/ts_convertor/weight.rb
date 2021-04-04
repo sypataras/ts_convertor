@@ -4,7 +4,7 @@ require 'ts_convertor/config'
 
 module TsConvertor
   class Weight
-    include TsConvertor::Config
+    include Config
 
     SIZE = %w[kg pound ton gram].freeze
 

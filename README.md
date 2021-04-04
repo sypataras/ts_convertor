@@ -20,9 +20,35 @@ Or install it yourself as:
 
     $ gem install ts_convertor
 
+add to your project
+
+```ruby
+  require 'ts_convertor'
+```
+
 ## Usage
 
-TODO: Write usage instructions here
+In version 0.1.3 is valid `Speed`, `Weight`, `Length` convertors
+
+To convert
+
+```
+  TsConvertor.[metric]_convert(amount, [var1], [var2])
+```
+
+metric = `speed` , vars = `%w[km_h km_m mile_h mile_m knots]`
+
+metric = `weight` , vars = `%w[kg pound ton gram]`
+
+metric = `length` , vars = `%w[km mile meter yard foot]`
+
+example
+
+```ruby
+  result = TsConvertor.speed_convert(60, 'km_h', 'mile_h')
+
+  result.eql?(37.2822714)
+```
 
 ## Development
 

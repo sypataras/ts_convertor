@@ -13,7 +13,7 @@ RSpec.describe TsConvertor::Weight do
 
       it 'success' do
         result = subject
-        expect(result).to eq(100000)
+        expect(result).to eq(100_000)
       end
     end
 
@@ -22,7 +22,7 @@ RSpec.describe TsConvertor::Weight do
 
       it 'success' do
         result = subject
-        expect(result).to eq(220462.26)
+        expect(result).to eq(220_462.26)
       end
     end
 
