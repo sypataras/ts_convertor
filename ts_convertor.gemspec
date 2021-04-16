@@ -6,17 +6,17 @@ Gem::Specification.new do |spec|
   spec.name          = 'ts_convertor'
   spec.version       = TsConvertor::VERSION
   spec.authors       = ['sypataras']
-  spec.email         = ['tarassypa@ukr.net']
+  spec.email         = ['sypenko88@gmail.com']
 
   spec.summary       = 'convertor'
   spec.description   = 'convert all metrics'
-  spec.homepage      = 'https://github.com/sypataras/ts_convertor'
+  spec.homepage      = 'https://rubygems.org/gems/ts_convertor'
   spec.required_ruby_version = '>= 2.6.0'
 
-  spec.metadata['allowed_push_host'] = 'https://github.com/sypataras/ts_convertor'
+  #spec.metadata['allowed_push_host'] = 'https://github.com/sypataras/ts_convertor'
 
-  spec.metadata['homepage_uri'] = spec.homepage
-  spec.metadata['source_code_uri'] = 'https://github.com/sypataras/ts_convertor'
+  #spec.metadata['homepage_uri'] = spec.homepage
+  #spec.metadata['source_code_uri'] = 'https://github.com/sypataras/ts_convertor'
   # spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
 
   # Specify which files should be added to the gem when it is released.
